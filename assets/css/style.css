@@ -22,13 +22,14 @@ d: meadia query css
 /* ------------------------------------------------------------------ */
 
 @font-face {
-  font-family: 'Lintel';
-  src: url('../fonts/Lintel_Medium-webfont.eot'); /* IE9 Compat Modes */
-src: url('../fonts/Lintel_Medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-url('../fonts/Lintel_Medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-url('../fonts/Lintel_Medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-url('../fonts/Lintel_Medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-url('../fonts/Lintel_Medium-webfont.svg') format('svg'); /* Legacy iOS */
+    font-family: 'Lintel';
+
+    src: url('../fonts/Lintel_Medium-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lintel_Medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Lintel_Medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Lintel_Medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Lintel_Medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Lintel_Medium-webfont.svg') format('svg'); /* Legacy iOS */
 
     src: url('../fonts/Lintel_Bold-webfont.eot'); /* IE9 Compat Modes */
     src: url('../fonts/Lintel_Bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -55,7 +56,14 @@ body {
     font-family: Lintel, sans-serif;
 }
 /*--global css--*/
-*{outline:none;margin:0;padding:0;}
+*{
+    outline:none;
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 img, fieldset {border:0;}
 a {text-decoration:none;}
 
@@ -80,13 +88,36 @@ h4 {
     font-family: Lintel_ExtraBold-webfont;
 }
 
+.logo_sprit {
+    background:url("./../images/loges.png") no-repeat;
+    text-indent: -9999px;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* c : Layout
 /* ------------------------------------------------------------------ */
 
+.left_section, .right_section {
+    width: calc(50% - 4px);
+    display: inline-block;
+    vertical-align: top;
+}
+.right_section img {
+    width: 100%;
+    height: auto;
+}
+
 /* --------------- c.1 : Header--------------- */
 
+.revolution_logo a {
+    display: block;
+    width: 458px;
+    height: 53px;
+    background-position: 0 0;
+
+
+}
 /* --------------- c.2 : Banner --------------- */
 
 /* --------------- c.3 : main ----------------- */
