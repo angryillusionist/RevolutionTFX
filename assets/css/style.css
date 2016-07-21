@@ -87,25 +87,95 @@ h4 {
     font-size: 22px;
     font-family: Lintel_ExtraBold-webfont;
 }
+.clearfix { display: inline-block; }
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+h1, h2, p {
+    font-family: Lintel, sans-serif;
+}
+h1 {
+    color: #44a9d1;
+    font-size: 112px;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+h2 {
+    color: #7e7f7f;
+    font-size: 34px;
+    font-style: italic;
+}
+
+p, address{
+    font-size: 25px;
+    color: #ffffff;
+}
+.case_section h1, .benefit h1 {
+    font-size: 60px;
+}
+.case_section p {
+    color: #7e7f7f;
+    margin-bottom: 90px;
+}
+
 
 .logo_sprit {
     background:url("./../images/loges.png") no-repeat;
     text-indent: -9999px;
+}
+.icon_sprit {
+    background:url("./../images/sprits.png") no-repeat;
+    width: 260px;
+    height: 260px;
+    display: inline-block;
+}
+.energy_saving_icon {
+    background-position: 0 0;
+}
+.many_options_icon {
+    background-position: 0 -233px;
+}
+.footprint_icon {
+    background-position: 0 -519px;
+}
+.flexibility_icon {
+    background-position: 0 -779px;
+}
+.right-sizing_icon {
+    background-position: 0 -1022px;
 }
 
 
 /* ------------------------------------------------------------------ */
 /* c : Layout
 /* ------------------------------------------------------------------ */
-
+.header_section, .case_section, footer {
+    padding: 90px 40px 0 40px;
+}
+.header_section, footer {
+    background: #000;
+}
+.header_section p {
+    margin-top: 60px;
+}
 .left_section, .right_section {
-    width: calc(50% - 4px);
-    display: inline-block;
-    vertical-align: top;
+    width: 50%;
+    float: left;
+    
+}
+.left_section {
+    padding-top: 95px;
 }
 .right_section img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    float: right;
 }
 
 /* --------------- c.1 : Header--------------- */
@@ -119,10 +189,81 @@ h4 {
 
 }
 /* --------------- c.2 : Banner --------------- */
+.benefit article {
+    height: 512px;
+
+}
+.benefit article:nth-child(1) {
+    background: url("./../images/01.jpg") no-repeat;
+}
+.benefit article:nth-child(2) {
+    background: url("./../images/04.jpg") no-repeat;
+}
+.benefit article:nth-child(3) {
+    background: url("./../images/02.jpg") no-repeat;
+}
+.benefit article:nth-child(4) {
+    background: url("./../images/03.jpg") no-repeat;
+}
+.benefit article:nth-child(5) {
+    background: url("./../images/05.jpg") no-repeat;
+}
+.benefit h1, .footer_content a {
+    color: #ec6d2d;
+}
+.mask {
+    background: rgba(0, 0, 0, 0.90);
+    width: 100%;
+    height: 100%;
+}
+.content {
+    width: 80%;
+    margin: 0 auto;
+    padding:100px 0;
+}
+.details {
+    display: inline-block;
+    width: calc(75% - 30px);
+    margin-left: 30px;
+}
 
 /* --------------- c.3 : main ----------------- */
 
 /* -------------- c.4 : footer ---------------- */
+
+footer {
+    padding-bottom: 60px;
+}
+footer h2, footer address {
+    font-style: normal;
+}
+footer h2 {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.footer_logo {
+    display: block;
+    width: 217px;
+    height: 80px;
+    background-position: -120px -53px;
+}
+footer a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.address_container {
+    width: calc(100% - 120px);
+    padding: 0 60px;
+    margin: 130px auto 0 auto;
+}
+address, .footer_logo {
+    display:inline-block;
+}
+.footer_logo{
+    float: right
+}
 
 
 
@@ -168,5 +309,7 @@ h4 {
 /* ------------common min-------------- */
 
 @media only screen  and (min-width : 1170px) {
+
+
 
 }
