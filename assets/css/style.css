@@ -1,0 +1,141 @@
+/*
+=====================================================================
+*   Document      :
+*	Url           :
+*   Created on    :  July 21, 2016
+*   Author        :
+*   Description   :
+=====================================================================
+
+TOC:
+a. Reset
+b: Typography
+c: layout
+	1. header
+	2. banner
+	3. main
+	4. footer
+d: meadia query css
+
+/* ------------------------------------------------------------------ */
+/*  :: Webfont Css  ::
+/* ------------------------------------------------------------------ */
+
+@font-face {
+  font-family: 'Lintel';
+  src: url('../fonts/Lintel_Medium-webfont.eot'); /* IE9 Compat Modes */
+src: url('../fonts/Lintel_Medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../fonts/Lintel_Medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+url('../fonts/Lintel_Medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+url('../fonts/Lintel_Medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+url('../fonts/Lintel_Medium-webfont.svg') format('svg'); /* Legacy iOS */
+
+    src: url('../fonts/Lintel_Bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lintel_Bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Lintel_Bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Lintel_Bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Lintel_Bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Lintel_Bold-webfont.svg') format('svg'); /* Legacy iOS */
+
+    src: url('../fonts/Lintel_ExtraBold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lintel_ExtraBold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Lintel_ExtraBold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Lintel_ExtraBold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Lintel_ExtraBold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Lintel_ExtraBold-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+/* ------------------------------------------------------------------ */
+/* a : Reset Css
+/* ------------------------------------------------------------------ */
+body {
+    font-size: 12px;
+    text-align:left;
+    background:none;
+    font-family: Lintel, sans-serif;
+}
+/*--global css--*/
+*{outline:none;margin:0;padding:0;}
+img, fieldset {border:0;}
+a {text-decoration:none;}
+
+
+/* ------------------------------------------------------------------ */
+/* b : Typography
+/* ------------------------------------------------------------------ */
+h1, h2, h3, h4, h5, h6 {
+    padding:0;
+    margin: 0;
+    font-family: Lintel, sans-serif;
+}
+h3 {
+    color: #222;
+    font-size: 20px;
+    font-family: Lintel_Bold-webfont;
+}
+
+h4 {
+    color: #222;
+    font-size: 22px;
+    font-family: Lintel_ExtraBold-webfont;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* c : Layout
+/* ------------------------------------------------------------------ */
+
+/* --------------- c.1 : Header--------------- */
+
+/* --------------- c.2 : Banner --------------- */
+
+/* --------------- c.3 : main ----------------- */
+
+/* -------------- c.4 : footer ---------------- */
+
+
+
+
+
+
+/* ------------------------------------------------------------------ */
+/*  d: Media Query Css
+/* ------------------------------------------------------------------ */
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {/*--- Mobile portrait ---*/
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 595px) {/*--- Mobile landscape ---*/
+
+}
+
+@media only screen and (min-width : 595px) and (max-width : 690px) {/*--- Small tablet portrait---*/
+
+}
+
+@media only screen and (min-width : 690px) and (max-width : 800px) {/*--- Tablet portrait ---*/
+
+}
+
+@media only screen and (min-width : 800px) and (max-width : 1024px) {/*--- Small tablet landscape ---*/
+
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1224px) {/*--- Tablet landscape --- */
+
+}
+
+
+/* ---------common max----------- */
+
+@media only screen  and (max-width : 768px) {
+
+}
+
+/* ------------common min-------------- */
+
+@media only screen  and (min-width : 1170px) {
+
+}
