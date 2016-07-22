@@ -113,7 +113,7 @@ h2 {
 }
 
 p, address{
-    font-size: 15px;
+    font-size: 25px;
     color: #ffffff;
 }
 .case_section h1, .benefit h1 {
@@ -175,7 +175,7 @@ p, address{
     padding-top: 95px;
 }
 .right_section img {
-    width: 80%;
+    width: 100%;
     height: auto;
     float: right;
 }
@@ -222,7 +222,7 @@ p, address{
     height: 100%;
 }
 .content {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding:100px 0;
 }
@@ -238,6 +238,7 @@ p, address{
 
 footer {
     padding-bottom: 60px;
+    margin-top: 50px;
 }
 footer h2, footer address {
     font-style: normal;
@@ -376,6 +377,47 @@ address, .footer_logo {
 
 @media only screen and (min-width : 800px) and (max-width : 1024px) {/*--- Small tablet landscape ---*/
 
+    h1 {
+        font-size: 66px;
+        line-height: 60px;
+        margin-bottom:20px;
+    }
+    .right_section img {
+        margin-top: 120px;
+    }
+    .header_section, .case_section, footer {
+        padding: 20px 30px 0 30px;
+    }
+    p, address {
+        font-size: 20px;
+    }
+    footer h2 {
+        width: 100%;
+    }
+    .address_container {
+        width: calc(100% - 60px);
+        padding: 0 30px;
+    }
+    .case_section, footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .icon_sprit {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .details {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+    .content {
+        padding: 50px 0;
+    }
+
+
 }
 
 @media only screen and (min-width : 1024px) and (max-width : 1224px) {/*--- Tablet landscape --- */
@@ -433,6 +475,9 @@ address, .footer_logo {
         width: 100%;
         padding: 0 30px;
         margin: 60px auto 0 auto;
+    }
+    p, address {
+        font-size: 15px;
     }
 
 }
