@@ -282,6 +282,84 @@ address, .footer_logo {
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {/*--- Mobile portrait ---*/
 
+    .left_section, .right_section {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .header_section p {
+        margin-bottom: 0;
+    }
+    .right_section img {
+        float: none;
+        width: 50%;
+    }
+    .case_section p {
+        margin: 20px 0 10px 0!important;
+    }
+    .revolution_logo {
+        width: 280px!important;
+        background-position: 40px -160px;
+    }
+    .revolution_logo a {
+        width: 280px!important;
+    }
+    .footer_logo {
+        background-position: -240px -133px;
+        float: none;
+    }
+    .left_section {
+        padding-top: 10px!important;
+    }
+    .icon_sprit {
+        width: 120px;
+        height: 120px;
+    }
+    .energy_saving_icon {
+        background-position: -312px -129px;
+    }
+    .many_options_icon {
+        background-position: -342px -369px;
+    }
+    .footprint_icon {
+        background-position: -352px -645px;
+    }
+    .flexibility_icon {
+        background-position: -342px -875px;
+    }
+    .right-sizing_icon {
+        background-position: -342px -1125px;
+    }
+
+    .left_section h1, .benefit h1 {
+        font-size: 30px!important;
+    }
+    .details {
+        width: calc(100% - 20px);
+        margin-left: 0;
+        padding: 0 10px;
+    }
+    .benefit article {
+        height: auto;
+        width: 100%;
+    }
+    footer h2 {
+        width: 100%;
+    }
+    .address_container {
+        text-align: center;
+    }
+    .right_section img {
+        width: 70%;
+        bottom: -18px!important;
+    }
+    .benefit, footer {
+        margin-top: 25px;
+    }
+    .address_container {
+        margin-top: 30px;
+    }
+
 }
 
 @media only screen and (min-width : 480px) and (max-width : 595px) {/*--- Mobile landscape ---*/
