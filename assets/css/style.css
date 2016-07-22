@@ -113,7 +113,7 @@ h2 {
 }
 
 p, address{
-    font-size: 25px;
+    font-size: 15px;
     color: #ffffff;
 }
 .case_section h1, .benefit h1 {
@@ -163,10 +163,12 @@ p, address{
 }
 .header_section p {
     margin-top: 60px;
+    margin-bottom: 100px;
 }
 .left_section, .right_section {
-    width: 50%;
-    float: left;
+    width: calc(50% - 2px);
+    display: inline-block;
+    vertical-align: bottom;
     
 }
 .left_section {
@@ -176,6 +178,9 @@ p, address{
     width: 80%;
     height: auto;
     float: right;
+}
+.case_section .right_section {
+    vertical-align: top;
 }
 
 /* --------------- c.1 : Header--------------- */
@@ -303,6 +308,54 @@ address, .footer_logo {
 /* ---------common max----------- */
 
 @media only screen  and (max-width : 768px) {
+    .header_section, .case_section, footer {
+        padding: 15px;
+    }
+    .revolution_logo {
+        width: 470px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .left_section {
+        padding-top: 40px;
+    }
+    .left_section h1, .benefit h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        line-height: 40px;
+    }
+    .left_section h2, footer h2 {
+        font-size: 18px;
+    }
+    .header_section p {
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .right_section img {
+        position: relative;
+        bottom: -15px;
+
+    }
+    .case_section p {
+        margin: 30px 0 45px 0;
+    }
+    .content {
+        width: 100%;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .icon_sprit {
+        display: block;
+        margin: auto;
+    }
+    .footer h2 {
+        width: 75%;
+    }
+    .address_container {
+        width: 100%;
+        padding: 0 30px;
+        margin: 60px auto 0 auto;
+    }
 
 }
 
