@@ -337,10 +337,13 @@ address, .footer_logo {
     .left_section h1, .benefit h1 {
         font-size: 30px!important;
     }
-    .details {
-        width: calc(100% - 20px);
-        margin-left: 0;
-        padding: 0 10px;
+    .mask {
+        border-spacing: 20px;
+    }
+    .icon_container, .details {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
     }
     .benefit article {
         height: auto;
@@ -409,15 +412,8 @@ address, .footer_logo {
         margin-left: auto;
         margin-right: auto;
     }
-    .details {
-        width: 100%;
-        display: block;
-        text-align: center;
-        margin-left: 0;
-    }
-    .content {
-        padding: 50px 0;
-    }
+
+
 
 
 }
@@ -461,10 +457,11 @@ address, .footer_logo {
     .case_section p {
         margin: 30px 0 45px 0;
     }
-    .content {
-        width: 100%;
-        padding: 30px 0;
-        text-align: center;
+    .mask {
+        border-spacing: 30px;
+    }
+    .details {
+        padding: 0;
     }
     .icon_sprit {
         display: block;
