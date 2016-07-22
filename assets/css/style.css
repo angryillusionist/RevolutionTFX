@@ -368,7 +368,7 @@ address, .footer_logo {
 
 }
 
-@media only screen and (min-width : 800px) and (max-width : 1024px) {/*--- Small tablet landscape ---*/
+@media only screen and (min-width : 769px) and (max-width : 1024px) {/*--- Small tablet landscape ---*/
 
     h1 {
         font-size: 66px;
