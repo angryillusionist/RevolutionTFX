@@ -412,7 +412,12 @@ address, .footer_logo {
         margin-left: auto;
         margin-right: auto;
     }
-
+    .mask {
+        border-spacing: 50px;
+    }
+    .details {
+        padding: 0;
+    }
 
 
 
