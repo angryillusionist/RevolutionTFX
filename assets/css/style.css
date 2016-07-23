@@ -155,7 +155,10 @@ p, address{
 /* c : Layout
 /* ------------------------------------------------------------------ */
 .header_section, .case_section, footer {
-    padding: 90px 40px 0 40px;
+    padding: 90px 0px 0 40px;
+}
+footer {
+    padding-right: 40px;
 }
 .header_section, footer {
     background: #000;
@@ -285,17 +288,21 @@ address, .footer_logo {
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {/*--- Mobile portrait ---*/
 
-    .left_section, .right_section {
-        width: 100%;
-        display: block;
-        text-align: center;
+    .left_section {
+        padding-top: 10px!important;
+        width: calc(60% - 2px);
+    }
+    .right_section {
+        width: calc(40% - 2px);
     }
     .header_section p {
         margin-bottom: 0;
     }
     .right_section img {
         float: none;
-        width: 50%;
+        width: 150%;
+        bottom: -18px!important;
+        right: 0!important;
     }
     .case_section p {
         margin: 20px 0 10px 0!important;
@@ -311,9 +318,7 @@ address, .footer_logo {
         background-position: -240px -133px;
         float: none;
     }
-    .left_section {
-        padding-top: 10px!important;
-    }
+
     .icon_sprit {
         width: 120px;
         height: 120px;
@@ -355,10 +360,6 @@ address, .footer_logo {
     .address_container {
         text-align: center;
     }
-    .right_section img {
-        width: 70%;
-        bottom: -18px!important;
-    }
     .benefit, footer {
         margin-top: 25px;
     }
@@ -379,7 +380,10 @@ address, .footer_logo {
         margin-top: 120px;
     }
     .header_section, .case_section, footer {
-        padding: 20px 30px 0 30px;
+        padding: 20px 0px 0 30px;
+    }
+    footer {
+        padding-right: 30px;
     }
     p, address {
         font-size: 20px;
@@ -416,7 +420,14 @@ address, .footer_logo {
 
 @media only screen  and (max-width : 768px) {
     .header_section, .case_section, footer {
-        padding: 15px;
+        padding: 15px 0 15px 15px;
+        
+    }
+    .header_section, .case_section {
+        overflow: hidden;
+    }
+    footer {
+        padding-right: 15px;
     }
     .revolution_logo {
         width: 470px;
@@ -441,6 +452,7 @@ address, .footer_logo {
     .right_section img {
         position: relative;
         bottom: -15px;
+        right: -70px;
 
     }
     .case_section p {
