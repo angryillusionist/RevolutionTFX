@@ -174,14 +174,13 @@ footer {
     
 }
 .case_section .left_section {
-    width: calc(70% - 2px);
+    width: calc(70% - 52px);
+    margin-right: 50px;
 }
 .case_section .right_section {
     width: calc(30% - 2px);
 }
-.left_section {
-    padding-top: 95px;
-}
+
 .right_section img {
     width: 100%;
     height: auto;
@@ -229,7 +228,7 @@ footer {
     width: 100%;
     height: 100%;
     display: table;
-    border-spacing: 80px;
+    border-spacing: 40px;
 }
 .content {
     display: table-row;
@@ -394,9 +393,7 @@ address, .footer_logo {
     .header_section, .case_section, footer {
         padding: 20px 0px 0 30px;
     }
-    .case_section .left_section, .case_section .right_section {
-        width: calc(50% - 2px);
-    }
+
     footer {
         padding-right: 30px;
     }
@@ -420,7 +417,7 @@ address, .footer_logo {
         margin-right: auto;
     }
     .mask {
-        border-spacing: 50px;
+        border-spacing: 30px;
     }
     .details {
         padding: 0;
@@ -451,6 +448,7 @@ address, .footer_logo {
     }
     .case_section .left_section {
         width: calc(50% - 2px);
+        margin-right: 0;
     }
     .case_section .right_section {
         width: calc(50% - 2px);
@@ -480,7 +478,7 @@ address, .footer_logo {
         margin: 30px 0 45px 0;
     }
     .mask {
-        border-spacing: 30px;
+        border-spacing: 15px;
     }
     .details {
         padding: 0;
