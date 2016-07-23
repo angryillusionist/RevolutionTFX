@@ -173,6 +173,12 @@ footer {
     vertical-align: bottom;
     
 }
+.case_section .left_section {
+    width: calc(70% - 2px);
+}
+.case_section .right_section {
+    width: calc(30% - 2px);
+}
 .left_section {
     padding-top: 95px;
 }
@@ -295,6 +301,12 @@ address, .footer_logo {
     .right_section {
         width: calc(40% - 2px);
     }
+    .case_section .left_section {
+        width: calc(60% - 2px);
+    }
+    .case_section .right_section {
+        width: calc(40% - 2px);
+    }
     .header_section p {
         margin-bottom: 0;
     }
@@ -382,6 +394,9 @@ address, .footer_logo {
     .header_section, .case_section, footer {
         padding: 20px 0px 0 30px;
     }
+    .case_section .left_section, .case_section .right_section {
+        width: calc(50% - 2px);
+    }
     footer {
         padding-right: 30px;
     }
@@ -433,6 +448,12 @@ address, .footer_logo {
         width: 470px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .case_section .left_section {
+        width: calc(50% - 2px);
+    }
+    .case_section .right_section {
+        width: calc(50% - 2px);
     }
     .left_section {
         padding-top: 40px;
