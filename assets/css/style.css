@@ -137,10 +137,10 @@ p, address{
     height: 260px;
 }
 .energy_saving_icon {
-    background-position: 0 28px;
+    background-position: 0  41px;
 }
 .many_options_icon {
-    background-position: 0 -233px;
+    background-position: -10px -233px;
 }
 .footprint_icon {
     background-position: 0 -519px;
@@ -293,7 +293,8 @@ address, .footer_logo {
     display:inline-block;
 }
 .footer_logo{
-    float: right
+    float: right;
+    margin-right: 40px;
 }
 
 
@@ -458,6 +459,9 @@ address, .footer_logo {
     .wrapper, .content {
         width: 100%;
     }
+    .footer_logo {
+        margin-right: 0px;
+    }
 
 
 
@@ -549,6 +553,7 @@ address, .footer_logo {
     .footer h2 {
         width: 75%;
     }
+
     .address_container {
         width: 100%;
         padding: 0 15px;
