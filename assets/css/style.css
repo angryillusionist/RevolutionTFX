@@ -235,7 +235,7 @@ p, address{
     height: 100%;
     display: table;
     text-align: center;
-    padding: 110px 40px 0 40px;
+    padding: 110px 0px 0 40px;
 }
 .content {
     display: inline-block;
@@ -311,6 +311,9 @@ address, .footer_logo {
     .details {
         width: 100%!important;
         margin-top: 0!important;
+    }
+    .case_section .right_section img {
+        width: 95%!important;
     }
 
 
