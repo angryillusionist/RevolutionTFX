@@ -137,7 +137,7 @@ p, address{
     height: 260px;
 }
 .energy_saving_icon {
-    background-position: 0 0px;
+    background-position: 0 28px;
 }
 .many_options_icon {
     background-position: 0 -233px;
@@ -233,14 +233,9 @@ p, address{
     background: rgba(0, 0, 0, 0.90);
     width: 100%;
     height: 100%;
+    display: table;
     text-align: center;
-
-}
-.mask:before {
-    content: '';
-    height: 100%;
-    display: inline-block;
-    vertical-align: middle;
+    padding: 110px 0px 0 40px;
 }
 .content {
     display: inline-block;
@@ -493,9 +488,10 @@ address, .footer_logo {
     .benefit article {
         height: 310px;
     }
-       
 
-
+    .mask {
+        padding-top: 10px;
+    }
     .header_section, .case_section {
         overflow: hidden;
     }
